@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Al-Shifa Specialist Clinic, Kano | Live Demo by Hefz|tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="agency-banner">
+        <span><strong>LIVE DEMO BY HEFZ|TECH:</strong> Want a serene, trustworthy website &amp; booking system for your clinic?</span>
+        <a href="https://hefztech.com.ng" class="agency-btn" target="_blank">Build Yours Now &rarr;</a>
+    </div>
+
+    <header>
+        <div class="clinic-brand">
+            <div class="clinic-icon">+</div>
+            <div class="clinic-name">
+                <h1>Noor Al-Shifa Specialist Clinic</h1>
+                <p>24/7 Healthcare &amp; Diagnostics • Kano State</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#appointment">Book Consultation</a></li>
+                <li><a href="#contact">Location</a></li>
+                <li><a href="#appointment" class="nav-cta">Book Doctor</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="trust-pill">24/7 Compassionate Outpatient &amp; Emergency Care</div>
+        <h2>Modern Medical Excellence, Accurate Diagnostics &amp; Gentle Care</h2>
+        <p>Dedicated to safeguarding the health and well-being of families across Kano State with experienced specialists and modern laboratory technology.</p>
+        <div class="hero-buttons">
+            <a href="#appointment" class="btn-primary">Book a Doctor Online</a>
+            <button class="btn-secondary" id="openLabBtn">Patient Lab Results Portal</button>
+        </div>
+    </div>
+
+    <div class="info-cards">
+        <div class="info-card">
+            <h3>24/7 Medical Care</h3>
+            <p>Qualified doctors and compassionate nurses available day and night.</p>
+        </div>
+        <div class="info-card">
+            <h3>Modern Laboratory</h3>
+            <p>Fast, accurate blood tests, ultrasound scans, and health screenings.</p>
+        </div>
+        <div class="info-card">
+            <h3>Maternal &amp; Child</h3>
+            <p>Safe antenatal care, delivery suites, and pediatric specialist clinics.</p>
+        </div>
+        <div class="info-card">
+            <h3>Verified Pharmacy</h3>
+            <p>Authentic medications dispensed by licensed clinical pharmacists.</p>
+        </div>
+    </div>
+
+    <section id="departments">
+        <div class="section-header">
+            <span>Clinical Specialties</span>
+            <h2>Our Medical Departments</h2>
+        </div>
+        <div class="dept-grid">
+            <div class="dept-card">
+                <div class="dept-badge">OPD &amp; Family Care</div>
+                <h3>General &amp; Internal Medicine</h3>
+                <p>Comprehensive consultations, hypertension and diabetes management, and routine preventive medical checkups.</p>
+            </div>
+            <div class="dept-card">
+                <div class="dept-badge">Obstetrics &amp; Pediatrics</div>
+                <h3>Maternal &amp; Child Health</h3>
+                <p>Complete antenatal monitoring, serene maternity care, immunization programs, and gentle pediatric treatment.</p>
+            </div>
+            <div class="dept-card">
+                <div class="dept-badge">Pathology &amp; Scan</div>
+                <h3>Diagnostic Lab &amp; Imaging</h3>
+                <p>Automated pathology lab tests, 4D obstetric and abdominal ultrasound scans, ECG, and pre-employment screenings.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <div class="booking-box">
+            <div class="booking-info">
+                <h3>Skip the Waiting Room — Schedule Your Visit Online</h3>
+                <p>Book a consultation with our specialists or schedule a diagnostic test in seconds. Our patient desk will confirm your time slot immediately.</p>
+                <ul class="booking-perks">
+                    <li>Priority Doctor Consultation Scheduling</li>
+                    <li>NHIS &amp; Accredited HMO Insurance Accepted</li>
+                    <li>Strict Patient Confidentiality &amp; Digital Records</li>
+                    <li>Home Laboratory Sample Collection Available</li>
+                </ul>
+            </div>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="patientName">Patient's Full Name</label>
+                    <input type="text" id="patientName" placeholder="e.g. Ibrahim Musa" required>
+                </div>
+                <div class="form-group">
+                    <label for="department">Select Department / Service</label>
+                    <select id="department" required>
+                        <option value="">-- Choose Medical Service --</option>
+                        <option value="General Medical Consultation">General Medical Consultation</option>
+                        <option value="Maternal / Antenatal Clinic">Maternal / Antenatal Clinic</option>
+                        <option value="Pediatrics (Child Specialist)">Pediatrics (Child Specialist)</option>
+                        <option value="Laboratory Test / Ultrasound Scan">Laboratory Test / Ultrasound Scan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="preferredDate">Preferred Visit Date</label>
+                    <input type="date" id="preferredDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="patientPhone">Phone Number</label>
+                    <input type="tel" id="patientPhone" placeholder="e.g. 0803 123 4567" required>
+                </div>
+                <button type="submit" class="submit-btn">Confirm Appointment via WhatsApp &rarr;</button>
+            </form>
+        </div>
+    </section>
+
+    <div class="modal" id="labModal">
+        <div class="modal-content">
+            <h3>Online Lab Results Portal</h3>
+            <p>In the full custom system engineered by <strong>Hefz|tech</strong>, patients can securely enter their Lab Reference ID to view or download verified test results from home.</p>
+            <button class="submit-btn" id="closeLabBtn">Close Preview</button>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-grid">
+            <div>
+                <h4>Noor Al-Shifa Specialist Clinic</h4>
+                <p>Delivering ethical, compassionate, and modern medical care to families across Kano State.</p>
+            </div>
+            <div>
+                <h4>Clinic Location</h4>
+                <p>No. 22, BUK Road / Janbulo Axis, Kano, Nigeria</p>
+                <p>Open 24 Hours Daily (Including Weekends)</p>
+            </div>
+            <div>
+                <h4>Emergency &amp; Patient Desk</h4>
+                <p>Emergency Line: +234 800 000 0000</p>
+                <p>Email: care@clinic-demo.com.ng</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Noor Al-Shifa Specialist Clinic. All Rights Reserved.</span>
+            <span>Engineered by <a href="https://hefztech.com.ng" target="_blank">Hefz|tech</a></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
